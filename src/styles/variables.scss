@@ -1,0 +1,92 @@
+// Colors
+
+$white: #ffffff;
+$black: #000000;
+$deep-blue: #051c2c;
+$grey: #c0c6ca;
+$light-grey: #b3b3b3;
+$pale-grey: #e6e6e6;
+$dark-grey: #a4a4a4;
+$darker-grey: #7f7f7f;
+$super-pale-grey: #f0f0f0;
+$super-light-grey: #d0d0d0;
+$milk-white: #fafafa;
+$dark-red: #cd202c;
+$red: #f50000;
+$light-red: #f13a2c;
+$light-red-alert: #ffeeee;
+$red-alert: #b0001d;
+$yellow: #ffd048;
+$green: #77bb51;
+$light-green-alert: #d1f4dd;
+$green-alert: #006200;
+$light-purple: #8e9ff2;
+$lighter-grey: #dadada;
+$lighter-cyan: #e6f6fd;
+$light-cyan: #bfe9fc;
+$cyan: #00a9f4;
+$blue-transition3: #39bdf3;
+$electric-blue: #1f40e6;
+$link-color: #10258e;
+$link-color-hover: #1e40e6;
+$tooltip: #f2f2f2;
+$apic-variance-grey: #828282;
+
+// Font Family
+
+$theinhardtPan: "TheinhardtPan";
+$icomoon: "Icomoon";
+$bower: "Bower-Bold";
+$fallbackFont: Arial, Helvetica, sans-serif;
+
+$font-family: $theinhardtPan, $fallbackFont;
+$secondary-font-family: $theinhardtPan, $fallbackFont;
+
+// Fonts Path
+$baseFontsPath: "../assets/fonts";
+$pathTheinhardtPan: "#{$baseFontsPath}/#{$theinhardtPan}";
+$pathIcoMoon: "#{$baseFontsPath}/#{$icomoon}";
+$pathBower: "#{$baseFontsPath}/#{$bower}";
+
+// Font Weight
+
+$font-weight-extra-light: 200;
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-semi-bold: 600;
+$font-weight-bold: 700;
+
+// Font Size
+
+$font-size-xs: 10px;
+$font-size-small: 12px;
+$font-size-regular: 14px;
+$font-size-medium: 16px;
+$font-size-large: 20px;
+$font-size-xl: 24px;
+
+// Font Style
+
+$font-style-italic: italic;
+$font-style-bold: bold;
+
+// Button Style
+
+$button-primary-bg: $electric-blue;
+$button-primary-hover-bg: darken($electric-blue, 10%);
+$button-primary-active-bg: darken($electric-blue, 20%);
+$button-primary-color: $white;
+
+$button-secondary-bg: $white;
+$button-secondary-hover-bg: #f1f3fd;
+$button-secondary-active-bg: #e3e6fc;
+$button-secondary-color: $electric-blue;
+
+$button-tertiary-bg: $white;
+$button-tertiary-hover-bg: darken($white, 3%);
+$button-tertiary-active-bg: darken($white, 6%);
+$button-tertiary-color: $black;
+
+$button-disabled-bg: $super-light-grey;
+$button-disabled-color: $darker-grey;

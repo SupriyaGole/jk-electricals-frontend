@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Page Header should render page header 1`] = `
+<body>
+  <div>
+    <header
+      class="page-header"
+    >
+      <h1
+        class="page-title"
+      >
+        JK Electricals
+      </h1>
+      <nav
+        class="navbar navbar-expand navbar-dark bg-dark"
+      >
+        <div
+          class="mr-auto navbar-nav"
+        >
+          <a
+            class="nav-link"
+            data-rb-event-key="#about"
+            href="#about"
+          >
+            About
+          </a>
+          <a
+            class="nav-link"
+            data-rb-event-key="#contact-us"
+            href="#contact-us"
+          >
+            Contact Us
+          </a>
+        </div>
+      </nav>
+    </header>
+  </div>
+</body>
+`;
